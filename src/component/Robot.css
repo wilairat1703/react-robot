@@ -1,0 +1,53 @@
+.container-center{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.prompt-extralight {
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container-input{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Box-input{
+    margin-right: 50px;
+}
+
+.box-command{
+    margin-top: 3cap;
+    margin-bottom: 8px;
+}
+
+.TextField-input input{
+    color: gray;
+}
+
+.box-button{
+    display: flex;
+    justify-content: end;
+}
+
+@media (max-width: 516px) {
+    .responsive-hr {
+      display: none;
+    }
+}
+
+.responsive-hr {
+    height: 300px;
+    border: "1px solid lightgray";
+    margin-right: 40px;
+}
+
+.box-grid{
+    margin-top: 55px;
+    max-width: 100%;
+}
